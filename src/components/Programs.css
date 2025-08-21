@@ -1,0 +1,42 @@
+.programs {
+  padding: 80px 6%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.programs h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.programs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.program-card {
+  background-color: #f1f1f1;
+  padding: 30px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.program-card:hover {
+  transform: translateY(-5px);
+}
+
+.program-card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.program-card p {
+  font-size: 16px;
+  color: #555;
+}
